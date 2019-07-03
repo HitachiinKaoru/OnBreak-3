@@ -1,0 +1,16 @@
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\obj\Debug\BibliotecaClases.csprojResolveAssemblyReference.cache
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\BibliotecaClases.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\BibliotecaClases.pdb
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\Conexion.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\ConexionBD.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\EntityFramework.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\ConexionBD.pdb
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\Conexion.pdb
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\EntityFramework.xml
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\obj\Debug\BibliotecaClases.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\obj\Debug\BibliotecaClases.pdb
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\ApplicationInsights.config
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\Servicios.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\Servicios.pdb
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\BibliotecaClases\bin\Debug\Newtonsoft.Json.xml

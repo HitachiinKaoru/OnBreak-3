@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexionBD", "ConexionBD\ConexionBD.csproj", "{4AD76733-44EA-431F-942B-FF47DCBB1CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaClases", "BibliotecaClases\BibliotecaClases.csproj", "{B2D4034D-2EBA-4F92-967C-F17AD2B2AD6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "..\..\..\..\Documents\GitHub\UnBreakable\Servicios\WebService.csproj", "{900483E1-95CE-4E70-9F1D-E69C1BD828E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vista", "Vista\Vista.csproj", "{128AD4E2-9132-49F9-BC9F-6B9F5EFE2FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalendarioHora", "..\..\..\..\Documents\GitHub\UnBreakable\WpfControlLibrary1\WpfCalendarioHora.csproj", "{EBA24714-911A-4C39-B2EA-C9EA52C5DDD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AD76733-44EA-431F-942B-FF47DCBB1CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD76733-44EA-431F-942B-FF47DCBB1CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD76733-44EA-431F-942B-FF47DCBB1CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD76733-44EA-431F-942B-FF47DCBB1CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D4034D-2EBA-4F92-967C-F17AD2B2AD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D4034D-2EBA-4F92-967C-F17AD2B2AD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D4034D-2EBA-4F92-967C-F17AD2B2AD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D4034D-2EBA-4F92-967C-F17AD2B2AD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900483E1-95CE-4E70-9F1D-E69C1BD828E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900483E1-95CE-4E70-9F1D-E69C1BD828E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900483E1-95CE-4E70-9F1D-E69C1BD828E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900483E1-95CE-4E70-9F1D-E69C1BD828E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128AD4E2-9132-49F9-BC9F-6B9F5EFE2FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128AD4E2-9132-49F9-BC9F-6B9F5EFE2FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128AD4E2-9132-49F9-BC9F-6B9F5EFE2FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128AD4E2-9132-49F9-BC9F-6B9F5EFE2FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA24714-911A-4C39-B2EA-C9EA52C5DDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA24714-911A-4C39-B2EA-C9EA52C5DDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA24714-911A-4C39-B2EA-C9EA52C5DDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA24714-911A-4C39-B2EA-C9EA52C5DDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

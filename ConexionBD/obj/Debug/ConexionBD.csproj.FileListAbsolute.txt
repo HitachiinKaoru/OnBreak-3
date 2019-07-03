@@ -1,0 +1,8 @@
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\ConexionBD\bin\Debug\ConexionBD.dll.config
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\ConexionBD\bin\Debug\ConexionBD.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\ConexionBD\bin\Debug\ConexionBD.pdb
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\ConexionBD\bin\Debug\EntityFramework.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\ConexionBD\bin\Debug\EntityFramework.xml
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\ConexionBD\obj\Debug\ConexionBD.dll
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\ConexionBD\obj\Debug\ConexionBD.pdb
+C:\Users\Hitachiin-Sama\Desktop\Antecedentes OnBreak\Antecedentes OnBreak Parte3\OnBreak 3\ConexionBD\obj\Debug\ConexionBD.csprojResolveAssemblyReference.cache

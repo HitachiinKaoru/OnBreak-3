@@ -1,0 +1,61 @@
+﻿<Controls:MetroWindow x:Class="Vista.ListadoClientes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vista"
+        mc:Ignorable="d"
+        
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:iconPacks= "http://metro.mahapps.com/winfx/xaml/iconpacks"
+        
+        Title= "Listado de Clientes - OnBreak"  ShowTitleBar="True" ShowMaxRestoreButton="False" ResizeMode="CanMinimize" 
+        Height="664.116" Width="1309.816" TitlebarHeight="35"
+        GlowBrush= "{DynamicResource AccentColorBrush}" WindowStartupLocation= "CenterScreen" Icon="Imagenes/blanco-azul.png" >
+
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button>
+                <StackPanel Orientation= "Horizontal" >
+                    <iconPacks:PackIconModern Width= "24" Height= "24" Kind= "Tools" />
+                    <TextBlock Margin= "4 0 0 0" VerticalAlignment= "Center" Text= "Ajustes" />
+                </StackPanel>
+            </Button>
+            <Button Click="Button_Click">
+                <StackPanel Orientation= "Horizontal" >
+                    <iconPacks:PackIconModern Width= "24" Height= "24" Kind= "Pokeball" />
+                    <TextBlock Margin= "4 0 0 0" VerticalAlignment= "Center" Text= "Cerrar Sesion" />
+                </StackPanel>
+            </Button>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+    <Grid Background="White">
+        <Image x:Name="image" Source="Imagenes/celeste-onbreak.jpg" Margin="-267,-3,-282.8,-342"/>
+
+        <Grid HorizontalAlignment="Left" Height="634" Margin="57,10,0,0" VerticalAlignment="Top" Width="1192" Background="#FFDDD3D3"/>
+
+        <Button x:Name="btnPasar" Content="Traspasar" HorizontalAlignment="Left" Margin="422,582,0,0" VerticalAlignment="Top" Width="73" FontWeight="Normal" Controls:ButtonHelper.PreserveTextCase="True" RenderTransformOrigin="1.662,0.727" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnPasar_Click"/>
+        <DataGrid x:Name="dgLista" HorizontalAlignment="Left" Margin="57,171,0,0" VerticalAlignment="Top" Height="310" Width="1192" Background="#FFF7F5F5"/>
+        <Button x:Name="btnSalir" Content="Volver" HorizontalAlignment="Left" Margin="728,581,0,0" VerticalAlignment="Top" Width="75"  FontWeight="Normal" Controls:ButtonHelper.PreserveTextCase="True" RenderTransformOrigin="1.662,0.727" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnSalir_Click"/>
+        <GroupBox x:Name="gbFiltrar" Header="Filtrar Información" HorizontalAlignment="Left" Margin="57,10,0,0" VerticalAlignment="Top" Height="144" Width="1192" Background="#3373F2" BorderBrush="#3373F2" Foreground="Black">
+            <Grid HorizontalAlignment="Left" Height="110" Margin="10,4,0,-4.667" VerticalAlignment="Top" Width="416">
+                <Label x:Name="label" Content="Rut" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,1,0,0"/>
+                <Label x:Name="label1" Content="Tipo de Empresa" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="label2" Content="Actividad" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="txtFiltroRut"  Controls:TextBoxHelper.Watermark="Ej. 11.111.111-1" HorizontalAlignment="Left" Height="23" Margin="140,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontWeight="Bold" Controls:TextBoxHelper.ClearTextButton="True"/>
+                <ComboBox x:Name="cbTipoEmp" HorizontalAlignment="Left" Margin="140,34,0,0" VerticalAlignment="Top" Width="138" Height="26" FontWeight="Bold"/>
+                <ComboBox x:Name="cbActiv" HorizontalAlignment="Left" Margin="140,71,0,0" VerticalAlignment="Top" Width="137" FontWeight="Bold"/>
+                <Button x:Name="btnFiltrarRut" Content="Filtrar" HorizontalAlignment="Left" Margin="313,0,-37,0" VerticalAlignment="Top" Width="75" FontWeight="Normal" Controls:ButtonHelper.PreserveTextCase="True" RenderTransformOrigin="1.662,0.727" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnFiltrar_Click"/>
+                <Button x:Name="btnFiltrarTipo" Content="Filtrar" HorizontalAlignment="Left" Margin="313,34,0,0" VerticalAlignment="Top" Width="75" FontWeight="Normal" Controls:ButtonHelper.PreserveTextCase="True" RenderTransformOrigin="1.662,0.727" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnFiltrarTipo_Click"/>
+                <Button x:Name="btnFiltrarAct" Content="Filtrar" HorizontalAlignment="Left" Margin="314,69,0,0" VerticalAlignment="Top" Width="75" FontWeight="Normal" Controls:ButtonHelper.PreserveTextCase="True" RenderTransformOrigin="1.662,0.727" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnFiltrarAct_Click"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="525,582,0,0" VerticalAlignment="Top" Width="75" FontWeight="Normal"  Controls:ButtonHelper.PreserveTextCase="True" RenderTransformOrigin="1.662,0.727" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnEliminar_Click"/>
+        <Button x:Name="btnPasarAContrato" Content="Traspasar" HorizontalAlignment="Left" Margin="630,582,0,0" VerticalAlignment="Top" Width="73" FontWeight="Normal" Controls:ButtonHelper.PreserveTextCase="True" RenderTransformOrigin="1.662,0.727" Style="{StaticResource AccentedSquareButtonStyle}" Background="#CCDA1193" Click="btnPasarContrato_Click"/>
+        <Button x:Name="btnCrear" Content="Crear Nuevo cliente " HorizontalAlignment="Left" Margin="728,76,0,0" VerticalAlignment="Top" Width="137" FontWeight="Normal" Controls:ButtonHelper.PreserveTextCase="True" RenderTransformOrigin="1.662,0.727" Style="{StaticResource AccentedSquareButtonStyle}" Click="btnCrear_Click"/>
+
+
+    </Grid>
+</Controls:MetroWindow>
